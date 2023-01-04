@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { exchangeLists } from "../redux/exchange/exchange";
-import HomepageItem from "./HomepageItem";
-import "./Homepage.css";
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { exchangeLists } from '../redux/exchange/exchange';
+import HomepageItem from './HomepageItem';
+import './Homepage.css';
 
 const Homepage = () => {
   const dispatch = useDispatch();
